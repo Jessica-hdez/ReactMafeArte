@@ -1,0 +1,30 @@
+.detail {
+    height: 30vh;
+    background: var(--darkPurple);
+    color: var(--white);
+    margin: 0 20px;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.detail-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+.detail-text.last {
+    border-bottom: 2px dashed var(--white);
+}
+
+.detail button {
+    margin-top: 15px;
+    padding: 8px 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background: var(--lightGrey);
+    color: var(--grey);
+    border: none;
+}

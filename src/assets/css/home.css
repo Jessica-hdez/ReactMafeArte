@@ -1,0 +1,369 @@
+/* ----------------
+Botones del header
+------------------- */
+.btns-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    text-align: right;
+    position: relative;
+}
+
+.btns-header button {
+    width: 30px;
+    height: 29px;
+    /* border: 1px solid var(--lightGrey); */
+    color: var(--white);
+    border-radius: 7px;
+    background-color: var(--lightGrey);
+    z-index: 1;
+    border: none;
+}
+
+.btns-header .input {
+    border: 1px solid var(--lightGrey);
+    font-size: 16px;
+    background-color: var(--white);
+    height: 28px;
+    width: 29px;
+    transition: width 0.5s;
+    padding: 0 10px;
+    position: absolute;
+    right: 30px;
+    border-radius: 14px 10px 10px 14px;
+}
+
+.btns-header.active .input {
+    width: 200px;
+}
+
+input.noshow-section-nav,
+button.noshow-section-nav {
+    display: none;
+}
+
+.input:focus {
+  outline: none;  
+}
+
+.btns-header h3{
+    display: none;
+}
+
+.btns-header h3.show-section-nav {
+    display: initial;
+}
+
+/* ---------------------
+Bienvenida en el header
+------------------------ */
+.welcome {
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: var(--grey);
+}
+
+.welcome .info .info-title {
+    font-size: 24px;
+    line-height: 0;
+    margin-bottom: 12px;
+    margin-left: 0;
+    margin-top: 16px;
+}
+
+.welcome .info .info-schedule {
+    font-size: 14px;
+}
+
+.welcome .info .info-time {
+    font-size: 14px;
+    border: 1px solid var(--grey);
+    border-radius: 43px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    width: 137px;
+}
+
+/* ---------------
+Logo en el header
+------------------ */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container .logo {
+    line-height: 0;
+}
+
+.logo-container .logo-text {
+    background: var(--purple);
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: var(--white);
+}
+
+.logo-container .logo-text.closed {
+    background: var(--lightGrey);
+    color: var(--grey);
+}
+
+/* --------------------------
+Clasificación por categorías
+----------------------------- */
+.categories {
+    /* padding: 0 0 10px 30px; */
+    padding: 0 0 0 15px;
+    overflow: hidden;
+}
+
+.categories-title {
+    font-size: 22px;
+    color: var(--grey);
+}
+
+.categories-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    /* Scroll más sutil */
+    scroll-behavior: smooth;
+}
+
+/* Sólo funciona para móvil */
+.categories-buttons::-webkit-scrollbar {
+    display: none;
+}
+
+.btn-categories {
+    background: var(--lightGrey);
+    color: var(--grey);
+    border-radius: 43px;
+    border: 0;
+    padding: 7px 12px 7px 16px;
+    margin-right: 10px;
+}
+
+.categories-buttons .active {
+    background: var(--blue);
+    color: var(--white);
+}
+
+/* Provisional */
+.categories h3 {
+    /* .categories { padding:
+       .container-products { padding: */
+    padding-top: 15px;
+}
+
+/* ------------------
+Sección de productos 
+--------------------- */
+.container-products {
+    /* padding: 10px 30px; */
+    padding: 5px 30px 10px 30px;
+    flex: 1 auto;
+    overflow:scroll;
+    height: 10px;
+    scroll-behavior: smooth;
+}
+
+.container-products::-webkit-scrollbar {
+    display: none;
+}
+
+.product {
+    background: var(--white);
+    border: 3px solid var(--lightGrey);
+    border-radius: 13px;
+    display: none;
+    margin-top: 10px;
+}
+
+.product.show-product {
+    display: flex;
+}
+
+.product img {
+    border-radius: 13px;
+}
+
+.product-text {
+    position: relative;
+    margin: 6px 10px;
+    width: 100%;
+}
+
+.product-text .product-title {
+    color: var(--blue);
+}
+
+.product-text .product-description {
+    color: var(--grey);
+    font-size: 11px;
+}
+
+.product-text .product-price {
+    color: var(--darkPurple);
+    font-weight: 700;
+}
+
+/* ---------------------------------
+Contador de la sección de productos 
+------------------------------------ */
+.product-text .counter {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 5px 10px 0;
+}
+
+.counter .less, .counter .plus {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    font-weight: 1000;
+}
+
+.counter .less:active, .counter .plus:active {
+    transform: scale(.8,.8);
+}
+
+.counter .less {
+    background: var(--white);
+    border: .5px solid var(--purple);
+    color: var(--purple);
+}
+
+.counter .plus {
+    background: var(--purple);
+    color: var(--grey);
+    border: none;
+}
+
+.counter p{
+    padding: 0 11px;
+    font-size: 12px;
+}
+
+/* ----
+Footer
+------- */
+footer {
+    color: var(--white);
+    position: relative;
+}
+
+.btn-cart-container {
+    position: absolute;
+    background: var(--blue);
+    border: 4px solid var(--white);
+    display: flex;
+    top: 10%;
+    left: 50%;
+    z-index: 1;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+}
+
+.btn-cart-container:active {
+    transform: matrix(.9, 0, 0, .9, -30, -30);
+}
+
+.btn-cart-container .quantity {
+    width: 14px;
+    height: 14px;
+    font-size: 11px;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    background-color: var(--white);
+    border: 1px solid var(--blue);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 14px;
+    color: var(--blue);
+    font-weight: 1000;
+}
+
+.inner-btn-menu {
+    width: 100%;
+    height: 70px;
+    background-color: var(--darkPurple);
+    clip-path: polygon(50% 0, 100% 25%, 100% 100%, 0 100%, 0 25%);
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.inner-btn-menu .icon-information:active, .inner-btn-menu .icon-home:active {
+    transform: scale(.8,.8);
+}
+/* ------------------
+Información About us
+-------------------- */
+.section-about-us {
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    transition: height .3s ease;
+    overflow: hidden;
+}
+
+.section-about-us.show-about {
+    height: 100vh;
+}
+
+.section-about-us .about-title-container {
+    padding: 10px 20px;
+    width: 90vw;
+    background: var(--blue);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.section-about-us .about-content {
+    width: 90vw;
+    border: 2px solid var(--blue);
+    background-color: var(--white);
+    padding: 15px 20px;
+    color: var(--grey);
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+}
+
+.section-about-us .about-content span {
+    padding: 10px 20px 45px 20px;
+    color: var(--purple);
+}

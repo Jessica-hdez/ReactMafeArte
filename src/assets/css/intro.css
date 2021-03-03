@@ -1,0 +1,72 @@
+.container-index {
+    background: var(--darkPurple);
+    width: 100vw;
+    height: 100vh;
+    color: var(--white); 
+}
+
+.container-index a{
+    color: var(--darkPurple);
+}
+
+.curve {
+    background-color: var(--rose);
+    height: 60vh;
+    /* border-radius: 0 0 0 100%; */
+    border-bottom-left-radius: 100% 60%;
+    box-shadow: 0 10px 20px var(--grey);
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+.logo-index {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    /* align-items: center; */
+}
+
+.logo-index img {
+    height: 30vh;
+}
+
+.text-index {
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 28px;
+}
+
+.text-index p {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.btn-index {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-index button {
+    padding: 10px 30px;
+    background: var(--white);
+    font-size: 20px;
+    color: var(--grey);
+    border-radius: 30px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-index button:active {
+    transform: scale(.9, .9);
+}

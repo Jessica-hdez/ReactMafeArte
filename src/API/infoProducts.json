@@ -1,0 +1,175 @@
+{
+    "product" :[
+        {
+            "id": "1",
+            "alt": "Aretes en mostacilla",
+            "src": "https://i.ibb.co/fryH2jq/aretes1.png",
+            "title": "Aretes largos",
+            "description": "Accesorio en mostacilla",
+            "price": "15.000",
+            "category": "Aretes",
+            "promo": "Si"
+        },
+        {
+            "id": "2",
+            "alt": "Aretes tejidos",
+            "src": "https://i.ibb.co/6YWGvTg/aretes2.png",
+            "title": "Aretes beige",
+            "description": "Tejido crochet con rondelas",
+            "price": "15.000",
+            "category": "Aretes",
+            "promo": "No"
+        },
+        {
+            "id": "3",
+            "alt": "Aretes tejidos",
+            "src": "https://i.ibb.co/rMh48jb/aretes3.png",
+            "title": "Aretes rojos",
+            "description": "Tejido crochet",
+            "price": "15.000",
+            "category": "Aretes",
+            "promo": "No"
+        },
+        {
+            "id": "4",
+            "alt": "Aretes tejidos y miyuki",
+            "src": "https://i.ibb.co/Dg839DN/aretes4.png",
+            "title": "Aretes fucsia",
+            "description": "Tejido y miyuki",
+            "price": "20.000",
+            "category": "Aretes",
+            "promo": "No"
+        },
+        {
+            "id": "5",
+            "alt": "Aretes en miyuki",
+            "src": "https://i.ibb.co/KG8F0vF/aretes5.png",
+            "title": "Aretes rombos",
+            "description": "Accesorios en miyuki",
+            "price": "20.000",
+            "category": "Aretes",
+            "promo": "No"
+        },
+        {
+            "id": "6",
+            "alt": "Aretes tejidos",
+            "src": "https://i.ibb.co/crDdWHv/aretes6.png",
+            "title": "Aretes lentejuelas",
+            "description": "Tejido crochet",
+            "price": "15.000",
+            "category": "Aretes",
+            "promo": "No"
+        },
+        {
+            "id": "7",
+            "alt": "Aretes tejidos",
+            "src": "https://i.ibb.co/yFptrnP/aretes7.png",
+            "title": "Aretes mandala",
+            "description": "Tejido crochet",
+            "price": "20.000",
+            "category": "Aretes",
+            "promo": "No"
+            
+        },
+        {
+            "id": "8",
+            "alt": "Collar miyuki",
+            "src": "https://i.ibb.co/cQnNXvw/collar1.png",
+            "title": "Collar nombre",
+            "description": "Accesorio en miyuki",
+            "price": "20.000",
+            "category": "Collares",
+            "promo": "Si"
+        },
+        {
+            "id": "9",
+            "alt": "Collar miyuki",
+            "src": "https://i.ibb.co/JHmyG33/collar2.png",
+            "title": "Collar triple",
+            "description": "Accesorio en miyuki",
+            "price": "25.000",
+            "category": "Collares",
+            "promo": "Si"
+        },
+        {
+            "id": "10",
+            "alt": "Collar infantil miyuki",
+            "src": "https://i.ibb.co/GWhfQbG/collar3.png",
+            "title": "Collar infantil LOL",
+            "description": "Accesorio en miyuki",
+            "price": "35.000",
+            "category": "Collares",
+            "promo": "Si"
+        },
+        {
+            "id": "11",
+            "alt": "Pulsera con virgen",
+            "src": "https://i.ibb.co/mNdqr0Q/pulsera1.png",
+            "title": "Pulsera religiosa",
+            "description": "Rondela y mostacilla",
+            "price": "25.000",
+            "category": "Pulseras",
+            "promo": "Si"
+        },
+        {
+            "id": "12",
+            "alt": "Pulsera caballero",
+            "src": "https://i.ibb.co/1R5yGGr/pulsera2.png",
+            "title": "Pulsera flecha",
+            "description": "Accesorio en miyuki",
+            "price": "40.000",
+            "category": "Pulseras",
+            "promo": "No"
+        },
+        {
+            "id": "13",
+            "alt": "Pulsera miyuki",
+            "src": "https://i.ibb.co/1vV4N7X/pulsera3.png",
+            "title": "Pulsera delgada",
+            "description": "Accesorio en miyuki",
+            "price": "20.000",
+            "category": "Pulseras",
+            "promo": "No"
+        },
+        {
+            "id": "14",
+            "alt": "Anillo flor mostacilla",
+            "src": "https://i.ibb.co/pvq77Lh/anillo1.png",
+            "title": "Anillo flor",
+            "description": "Accesorio en mostacilla",
+            "price": "15.000",
+            "category": "Anillos",
+            "promo": "No"
+        },
+        {
+            "id": "15",
+            "alt": "Anillo infantil miyuki",
+            "src": "https://i.ibb.co/JR6CR2J/anillo2.png",
+            "title": "Anillo infantil",
+            "description": "Accesorio en miyuki",
+            "price": "15.000",
+            "category": "Anillos",
+            "promo": "No"
+        },
+        {
+            "id": "16",
+            "alt": "Set miyuki",
+            "src": "https://i.ibb.co/zHS40w6/set1.png",
+            "title": "Set rombos",
+            "description": "Accesorios en miyuki",
+            "price": "30.000",
+            "category": "Sets",
+            "promo": "Si"
+        },
+        {
+            "id": "17",
+            "alt": "Set tejido y rondela",
+            "src": "https://i.ibb.co/dkfBpxz/set2.png",
+            "title": "Set tejido",
+            "description": "Tejido crochet y rondela",
+            "price": "25.000",
+            "category": "Sets",
+            "promo": "No"
+        }
+   ]
+}
